@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/** COLORS **/
+.blue { color:#263D51; }
+.green { color:#B6B568; }
+.orange { color:#CC811A; }
+
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	background: #263D51 url(../_img/bg-sheepy-blue-transparent.png) bottom left no-repeat;
+    background-size: 60%;
+    color: #fff;
+    height: 100vh;
+    width: 100%;	
+}
+.italic {
+	font-style:italic;	
+}
+p.headline, p.thank-you {
+	font-family:"Roboto",san-serif;	
+	font-weight:100;
+	text-transform:uppercase;
+	font-size:5em;
+	line-height:.8em;
+}
+p.thank-you {
+	text-align:center;	
+}
+p.thank-you span {
+	 color:#B6B568;
+}
+.text p {
+	transform:rotateX(90deg);	
+	transition:all .5s;
+	margin-bottom:20px;
+	margin-top:-35px;
+}
+.text p.unhide {
+	transform:rotateX(0deg);
+	margin-top:0px;
+}
+label {
+	height:1px;
+	width:1px;
+	display: block;
+	overflow:hidden;	
+}
+input, textarea {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	margin-bottom:10px;
+	position:relative;
+}
+textarea {
+	height:auto;
+	margin-top:5px;
+}
+
+.submit-btn {
+	max-width:200px;
+	margin:-35px auto 0;	
+	border-radius:0px;
+	background:#B6B568;
+	text-transform:uppercase;
+	letter-spacing:.2em;
+	color:#fff;
+	font-weight:700;
+	font-size:.9em;
+	transition:all .5s;
+}
+.submit-btn:hover {
+	background:#CC811A;
+}
+.contact-us {
+	margin-top:10vh;	
+}
+
+
